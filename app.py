@@ -250,3 +250,5 @@ def history():
 @login_required
 def calculator():
     return render_template("calculator.html")
+
+
