@@ -8,9 +8,11 @@ https://www.youtube.com/watch?v=yjwdB4f5tzo&ab_channel=NhiHuynh
 Getting started:
 
 1. Clone this repository (or download zip file)
+
 git clone https://github.com/nikki2906/budgetwise.git
 
 2. Go to the app directory
+
 cd path/to/budgetwise
 
 3. Create and activate your virtual environment (optional but recommended!)
