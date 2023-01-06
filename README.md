@@ -47,3 +47,4 @@ Frontend: HTML, CSS, Jinja,
 Backend: Python, Flask, JavaScript
 Database: SQL
 Frameworks used: Bootstrap (frontend)
+
