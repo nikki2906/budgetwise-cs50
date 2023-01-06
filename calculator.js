@@ -31,5 +31,3 @@ function calculateBudget() {
     calculateBudget();
 
   };
-
-//Cited work: https://stackoverflow.com/questions/70110454/tip-calculator-javascript and https://codepen.io/cphemm/pen/reNwWd
