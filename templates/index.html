@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<header class="site-header" role="banner">
+<div class="wrapper">
+<div class = "row">
+    <div class = "col-5 mt-5">
+        <h1 class="mb-4">Welcome to Budget Wise</h1>
+
+        <h2 class="mb-4">Wisely manage your budget</h2>
+        <p class="mb-3">
+            Budget Wise helps you keep track of your spendings and allows you to view your expenses through data visualisations.
+        </p>
+
+        <h2 class="mb-4">Budget Calculator</h2>
+        <p>
+            Enter your monthly after-tax income into this budget calculator to build a suggested budget.
+        </p>
+    </div>
+    <div class="col-5">
+        <img src="/static/index.svg", class="index-img"/>
+    </div>
+    <div class="col-6">
+        <button type="button" class="btn button" onclick="myFunction()">Get Started</button>
+    <script>
+    function myFunction() {
+      location.replace("/register")
+    }
+    </script>
+    </div>
+
+</div>
+</div>
+</header>
+
+{% endblock %}

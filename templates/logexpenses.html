@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log Expense
+{% endblock %}
+
+{% block main %}
+    <form action="/logexpenses" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="description" name="description" placeholder="Description" type="text">
+        </div>
+        <div class="mb-3" class="amount-log">
+            <input class="form-control mx-auto w-auto" id="amount" name="amount" placeholder="Amount($)" type="integers">
+        </div>
+        <div class="form-group">
+            <select class="form-select mx-auto w-auto" required name="category" >
+                <option value="" disabled selected value>Spending Category 1</option>
+                <option value="housing">Housing</option>
+                <option value="transportation">Transportation</option>
+                <option value="food">Food</option>
+                <option value="utilities">Utilities</option>
+                <option value="insurance">Insurance</option>
+                <option value="personalspending">Personal Spending </option>
+                <option value="entertainment">Entertainment</option>
+                <option value="saving">Saving</option>
+            </select>
+            <select class="form-select mx-auto w-auto" required name="expense" >
+                <option value="" disabled selected value>Spending Category 2</option>
+                <option value="want">Want</option>
+                <option value="need">Need</option>
+                <option value="save">Save</option>
+            </select>
+
+        <div class="mb-3">
+            <input type="date" id="start" name="date" value="2022-12-01" min="2022-01-01" max="2026-12-31">
+        </div>
+        <button class="right-btn" type="submit">Log</button>
+    </form>
+{% endblock %}
