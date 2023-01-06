@@ -47,3 +47,4 @@ Styling
 I designed Budget Wise’s logo, which appears in the navbar and as the favicon. For the main homepage, Budget Wise incorporates illustrations created by @denayune. For the registration and login page, Budget Wise incorporates illustrations created by @Marta Shershen. Slab uses the gradient button hover to add more fun and dynamic to the webpage.
 
 
+
