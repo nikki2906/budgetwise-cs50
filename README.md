@@ -16,10 +16,12 @@ cd path/to/budgetwise
 3. Create and activate your virtual environment (optional but recommended!)
 
 ○ macOS/Linux:
+
 python3 -m venv venv
 . venv/bin/activate
 
 ○ Windows (not tested):
+
 py -3 -m venv venv
 venv\Scripts\activate
 If this works, your command line should now have (venv) in front of each line.
