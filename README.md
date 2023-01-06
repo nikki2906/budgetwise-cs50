@@ -14,9 +14,11 @@ git clone https://github.com/nikki2906/budgetwise.git
 cd path/to/budgetwise
 
 3. Create and activate your virtual environment (optional but recommended!)
+
 ○ macOS/Linux:
 python3 -m venv venv
 . venv/bin/activate
+
 ○ Windows (not tested):
 py -3 -m venv venv
 venv\Scripts\activate
