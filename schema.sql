@@ -17,5 +17,3 @@ CREATE TABLE spendings (
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     expense TEXT
 )
-
-
